@@ -21,7 +21,7 @@ describe('Pruebas en <GifItem />', () => {
         // expect( screen.getByRole('img').src ).toBe( url );
         const { src, alt } = screen.getByRole('img');
         expect( src ).toBe( url );
-        expect( alt ).toBe( alt );
+        expect( alt ).toBe( title );
     });
 
 
